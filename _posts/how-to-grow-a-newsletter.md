@@ -1,0 +1,48 @@
+---
+title: "How to Grow a Newsletter"
+description: ""
+date: "2025-02-18T21:19:01Z"
+name: "Jared Rhizor"
+---
+
+I launched [Poach](https://poach.vc/), a newsletter to help early-stage investors find interesting founders, in November 2024. I've published three issues almost weekly for three months, and Poach has grown to $250 MRR and nearly 350 subscribers, with several major investment firms subscribing. Here's a retrospective on building an initial subscriber base.
+
+## First Paid Customer
+
+The idea for this newsletter came from a discussion with an investor. I put it on the back burner for months before returning to it. I built scripts to find initial users and manually curated them into a couple initial newsletter editions before reaching out to the same investor to check if this matched what they had in mind. They said yes and paid for a subscription immediately, so I decided to invest more in finding out if more VCs would be interested.
+
+## Cold Outreach
+
+First, I emailed many early-stage investors using online VC lists. I also automated as much of this as possible. Despite low response rates, this generated most of my active subscribers and a third of paid subscribers.
+
+## Community Posting
+
+Posting in VC-related Slack groups, LinkedIn groups, Discords, and forums had mixed results based on the specific location. Some groups rejected any posts, while others drove little traffic. One group in particular resulted in a decent influx of signups and a small amount of traffic. Overall, this seemed promising, but there aren't many active _and public_ groups for VCs.
+
+## Meco for Publishers
+
+There's a newsletter reader app called [Meco](https://meco.app/) with a publisher program. The premise sounds promising: set a price to acquire a subscriber and give them a budget and description of your newsletter, and they do the rest. They recommend your newsletter to their users and only charge for "engaged subscribers" that read at least one of your posts after subscribing. I decided to experiment with Meco with a small budget and a slightly higher than average cost per acquisition.
+
+After a week, subscribers started to roll in. One downside was that these subscribers used [mecoinbox.com](http://mecoinbox.com) emails, which felt less valuable. It was harder to tell demographic data or which VC firms the subscribers belonged to, so evaluating the quality of the free subscribers was harder. The final numbers after stopping the experiment weren't great. Meco had 252 accounts subscribe to Poach, of which 118 counted as "engaged subscribers." After importing those subscribers into Substack, only 17 showed as reading even one more post, and none converted to paid. While this padded my subscriber numbers, it decreased my email open rate and was, overall, a failed investment.
+
+Less niche publications might fare better, but for Poach, this wasn't cost effective.
+
+## Facebook Ads
+
+I ran Facebook ads. I made a static using a simple description of Poach and a crop of the oft-memed photo of Marc Andreessen's head. I gained a decent number of global readers, but only a low percentage converted to regular readers (similar to the Meco experiment). Since the target audience lives in high cost of living areas and are high / ultra high net worth individuals, more specific targeting was cost prohibitive. Ultimately, none of these users converted to paid.
+
+## The Future
+
+### Referrals and Gifts
+
+I've started to see referrals where existing readers drive subscriptions or send gift subscriptions to people they know, but it's still in the early stages. We'll see how these convert.
+
+### Social Media
+
+I'm also starting to use social media more to promote Poach. On Twitter, I'm mentioning all investors followed by top VCs during the time period covered by the issue. I'm also starting cold outreach on Twitter. It's early days, so it's unclear if this is effective.
+
+### Goals
+
+While working on Poach, I've tried to gauge the market size for the current "product," which is just a curated list of founders that top VCs follow on Twitter. To expand revenue, the most obvious opportunities lie in two areas. The first is to build a SaaS product around finding founders, filtering them using custom criteria, and alerting VCs. The second is to find additional unique datasets useful for VCs, like founder activity on different platforms, meetups, or partnering with companies that serve early-stage founders to build a proprietary dataset.
+
+At the moment, neither are particularly appealing, since I'm focusing on [KeywordGems](https://keywordgems.com/), my AI-powered SEO researcher. My plan is to maintain the posting schedule and slightly expand outreach until I reach 50 paid subscribers. Then, I'll look for a buyer. Newsletter acquisitions are getting good revenue multiples lately, and I'm confident I can find someone interested in expanding to a SaaS or building new proprietary datasets for VCs.
