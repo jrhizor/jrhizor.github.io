@@ -1,6 +1,6 @@
 ---
 title: "How to Grow a Newsletter"
-description: ""
+description: "A transparent look at growing Poach, a newsletter for VCs, to $250 MRR and 350 subscribers. From cold outreach to paid acquisition experiments, learn what worked (and didn't) in building an audience of early-stage investors."
 date: "2025-02-18T21:19:01Z"
 name: "Jared Rhizor"
 ---
