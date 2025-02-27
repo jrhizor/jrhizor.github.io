@@ -23,13 +23,19 @@ export default function ProjectsPage() {
         <p>Automatic, comprehensive keyword research for SEO.</p>
         <h2>Active</h2>
         <h3>
-          <a href="https://mealbymeal.com/">MealByMeal</a>
+          <a href="https://www.elmohq.com/">Elmo</a>
         </h3>
-        <p>Track calories and macros over text message.</p>
+        <p>
+          AI SEO tool to track how LLMs perceive your product.
+        </p>
         <h3>
           <a href="https://poach.vc/">Poach</a>
         </h3>
         <p>Find early stage founders by tracking the best VCs.</p>
+        <h3>
+          <a href="https://mealbymeal.com/">MealByMeal</a>
+        </h3>
+        <p>Track calories and macros over text message.</p>
         <h3>
           <a href="https://otamatunes.com/">Otamatunes</a>
         </h3>
@@ -43,14 +49,6 @@ export default function ProjectsPage() {
         </h3>
         <p>Fun word game with a daily challenge.</p>
         <h2>Shelved</h2>
-        <h3>
-          <a href="https://www.elmohq.com/">Elmo</a>
-        </h3>
-        <p>
-          Understand what LLMs think about your brand and products. While the
-          analytics are interesting and can inform strategy, without search
-          volume, it&apos;s hard to integrate this into day-to-day work for users.
-        </p>
         <h3>
           <a href="https://www.altnado.com/">Altnado</a>
         </h3>
