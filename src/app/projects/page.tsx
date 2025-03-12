@@ -49,6 +49,10 @@ export default function ProjectsPage() {
         </h3>
         <p>Fun word game with a daily challenge.</p>
         <h3>
+          <a href="https://www.shelved.domains/">Shelved.Domains</a>
+        </h3>
+        <p>Helping founders buy and sell their unused domain names.</p>
+        <h3>
           <a href="https://www.favicon.to/">Favicon Generator</a>
         </h3>
         <p>Generate a simple favicon from 10,000+ React Icons.</p>
