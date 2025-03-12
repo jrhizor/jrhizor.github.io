@@ -48,6 +48,10 @@ export default function ProjectsPage() {
           <a href="https://robinwords.com/">RobinWords</a>
         </h3>
         <p>Fun word game with a daily challenge.</p>
+        <h3>
+          <a href="https://www.favicon.to/">Favicon Generate</a>
+        </h3>
+        <p>Generate a simple favicon from 10,000+ React Icons.</p>
         <h2>Shelved</h2>
         <h3>
           <a href="https://www.altnado.com/">Altnado</a>
