@@ -49,7 +49,7 @@ export default function ProjectsPage() {
         </h3>
         <p>Fun word game with a daily challenge.</p>
         <h3>
-          <a href="https://www.favicon.to/">Favicon Generate</a>
+          <a href="https://www.favicon.to/">Favicon Generator</a>
         </h3>
         <p>Generate a simple favicon from 10,000+ React Icons.</p>
         <h2>Shelved</h2>
