@@ -17,25 +17,25 @@ export default function ProjectsPage() {
 
       <div className="prose -mt-4 max-w-2xl prose-h2:mt-8 prose-h2:text-sm prose-h2:font-bold prose-h2:uppercase prose-h2:tracking-wider prose-h2:text-neutral-400 prose-h3:mb-0 prose-p:mb-4 prose-p:text-[clamp(1.8rem,_2.0vw,_1.9rem)] prose-p:text-lg prose-p:leading-normal prose-p:text-black prose-p:antialiased prose-a:no-underline hover:prose-a:underline hover:prose-a:decoration-neutral-400 hover:prose-a:underline-offset-1">
         <h2>Current Focus</h2>
-        <h3>
-          <a href="https://keywordgems.com/">KeywordGems</a>
-        </h3>
-        <p>Automatic, comprehensive keyword research for SEO.</p>
-        <h2>Active</h2>
-        <h3>
-          <a href="https://www.elmohq.com/">Elmo</a>
-        </h3>
-        <p>
-          AI SEO tool to track how LLMs perceive your product.
-        </p>
+
         <h3>
           <a href="https://poach.vc/">Poach</a>
         </h3>
         <p>Find early stage founders by tracking the best VCs.</p>
+
+        <h2>Sold</h2>
+        
         <h3>
           <a href="https://mealbymeal.com/">MealByMeal</a>
         </h3>
-        <p>Track calories and macros over text message.</p>
+        <p>Track calories and macros over text message. Sold in 2025 for a small amount.</p>
+        
+        <h2>Maintenance Mode</h2>
+        
+        <h3>
+          <a href="https://www.shelved.domains/">Shelved.Domains</a>
+        </h3>
+        <p>Helping founders buy and sell their unused domain names.</p>
         <h3>
           <a href="https://otamatunes.com/">Otamatunes</a>
         </h3>
@@ -49,14 +49,24 @@ export default function ProjectsPage() {
         </h3>
         <p>Fun word game with a daily challenge.</p>
         <h3>
-          <a href="https://www.shelved.domains/">Shelved.Domains</a>
-        </h3>
-        <p>Helping founders buy and sell their unused domain names.</p>
-        <h3>
           <a href="https://www.favicon.to/">Favicon Generator</a>
         </h3>
         <p>Generate a simple favicon from 10,000+ React Icons.</p>
-        <h2>Shelved</h2>
+
+        <h2>Paused</h2>
+        <h3>
+          <a href="https://keywordgems.com/">KeywordGems</a>
+        </h3>
+        <p>Automatic, comprehensive keyword research for SEO.</p>
+
+        <h3>
+          <a href="https://www.elmohq.com/">Elmo</a>
+        </h3>
+        <p>
+          AI SEO tool to track how LLMs perceive your product.
+        </p>
+
+        <h2>Graveyard</h2>
         <h3>
           <a href="https://www.altnado.com/">Altnado</a>
         </h3>

@@ -25,9 +25,9 @@ export default function HomePage() {
         <p>Hello, I&apos;m Jared Rhizor.</p>
 
         <p>
-          I&apos;m making SEO keyword research easy with{" "}
+          I&apos;m making finding early stage founders easy for VCs with{" "}
           <Link
-            href="https://www.keywordgems.com/"
+            href="https://www.poach.vc/"
             className="font-normal decoration-neutral-400 hover:underline hover:underline-offset-2"
           >
             KeywordGems
