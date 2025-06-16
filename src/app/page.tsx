@@ -30,7 +30,7 @@ export default function HomePage() {
             href="https://www.poach.vc/"
             className="font-normal decoration-neutral-400 hover:underline hover:underline-offset-2"
           >
-            KeywordGems
+            Poach
           </Link>
           .
         </p>
