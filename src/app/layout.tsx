@@ -9,7 +9,7 @@ import {
 } from "~/components/ui/sidebar";
 import { AppSidebar } from "~/components/app-sidebar";
 import PlausibleProvider from "next-plausible";
-import {Suspense} from "react";
+import { Suspense } from "react";
 
 export const metadata: Metadata = {
   title: "Jared Rhizor",

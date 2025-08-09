@@ -24,38 +24,36 @@ export async function GET(request: Request) {
   const text = searchParams.get("text") ?? "jrhizor.dev";
 
   return new ImageResponse(
-    (
+    <div
+      style={{
+        fontSize: 96,
+        color: "black",
+        background: "white",
+        width: "100%",
+        height: "100%",
+        display: "flex",
+        flexDirection: "column",
+        padding: "50px",
+        justifyContent: "space-between",
+        alignItems: "flex-start",
+      }}
+    >
+      <svg viewBox="0 0 64 64" style={{ width: "120px", height: "120px" }}>
+        <rect x="0" y="32" width="9.1" height="32" fill="#3B82F6"></rect>
+        <rect x="18.2" y="0" width="9.1" height="64" fill="#06B6D4"></rect>
+        <rect x="36.4" y="0" width="9.1" height="64" fill="#F97316"></rect>
+        <rect x="54.6" y="0" width="9.1" height="32" fill="#EF4444"></rect>
+      </svg>
       <div
         style={{
-          fontSize: 96,
-          color: "black",
-          background: "white",
-          width: "100%",
-          height: "100%",
-          display: "flex",
-          flexDirection: "column",
-          padding: "50px",
-          justifyContent: "space-between",
-          alignItems: "flex-start",
+          fontFamily: "Source Sans 3",
+          textWrap: "balance",
+          fontWeight: 700,
         }}
       >
-        <svg viewBox="0 0 64 64" style={{ width: "120px", height: "120px" }}>
-          <rect x="0" y="32" width="9.1" height="32" fill="#3B82F6"></rect>
-          <rect x="18.2" y="0" width="9.1" height="64" fill="#06B6D4"></rect>
-          <rect x="36.4" y="0" width="9.1" height="64" fill="#F97316"></rect>
-          <rect x="54.6" y="0" width="9.1" height="32" fill="#EF4444"></rect>
-        </svg>
-        <div
-          style={{
-            fontFamily: "Source Sans 3",
-            textWrap: "balance",
-            fontWeight: 700,
-          }}
-        >
-          {text}
-        </div>
+        {text}
       </div>
-    ),
+    </div>,
     {
       width: 1200,
       height: 630,
@@ -66,6 +64,6 @@ export async function GET(request: Request) {
           style: "normal",
         },
       ],
-    },
+    }
   );
 }

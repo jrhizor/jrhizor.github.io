@@ -34,14 +34,17 @@ export default function ProjectsPage() {
         <p>Master your brand&apos;s reputation with LLM optimization.</p>
 
         <h2>Sold</h2>
-        
+
         <h3>
           <a href="https://mealbymeal.com/">MealByMeal</a>
         </h3>
-        <p>Track calories and macros over text message. Sold in 2025 for a small amount.</p>
-        
+        <p>
+          Track calories and macros over text message. Sold in 2025 for a small
+          amount.
+        </p>
+
         <h2>Maintenance Mode</h2>
-        
+
         <h3>
           <a href="https://www.shelved.domains/">Shelved.Domains</a>
         </h3>
@@ -65,10 +68,7 @@ export default function ProjectsPage() {
         <h3>
           <a href="https://fauna.so/">Fauna</a>
         </h3>
-        <p>
-          A store featuring products with AI art. Used
-          for testing ads.
-        </p>
+        <p>A store featuring products with AI art. Used for testing ads.</p>
 
         <h2>Paused</h2>
         <h3>
@@ -82,10 +82,10 @@ export default function ProjectsPage() {
         </h3>
         <p>
           Generate alt text for images directly in your CMS. The non-plugin
-          installation approach did not resonate with users. It&apos;s also hard to
-          attribute SEO differences specifically to adding alt text. The people
-          that really need this are large e-commerce brands with millions of
-          SKUs.
+          installation approach did not resonate with users. It&apos;s also hard
+          to attribute SEO differences specifically to adding alt text. The
+          people that really need this are large e-commerce brands with millions
+          of SKUs.
         </p>
         <h3>
           <a href="https://stoat.dev/">Stoat</a>
@@ -101,7 +101,9 @@ export default function ProjectsPage() {
         <p>
           Applied Lightroom presets with an API. You can read about why
           PresetBot failed in{" "}
-          <Link href="/posts/building-a-waitlist-the-wrong-way/">this blog post</Link>
+          <Link href="/posts/building-a-waitlist-the-wrong-way/">
+            this blog post
+          </Link>
           .
         </p>
         <h3>
@@ -116,11 +118,11 @@ export default function ProjectsPage() {
           <a href="https://www.interlinked.fyi/">Interlinked</a>
         </h3>
         <p>
-          Compared connector coverage across data integration platforms. There&apos;s
-          definitely value in understanding the feature space of connectors, but
-          accurately synthesizing the data is difficult and finding people at
-          exactly the right time during the purchasing process is even more
-          difficult.
+          Compared connector coverage across data integration platforms.
+          There&apos;s definitely value in understanding the feature space of
+          connectors, but accurately synthesizing the data is difficult and
+          finding people at exactly the right time during the purchasing process
+          is even more difficult.
         </p>
         <h3>
           <a href="https://withcalories.com/">WithCalories</a>

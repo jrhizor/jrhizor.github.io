@@ -4,7 +4,7 @@ import { getAllPosts, getPostBySlug } from "~/lib/api";
 import markdownToHtml from "~/lib/markdownToHtml";
 import { PostBody } from "~/app/posts/_components/post-body";
 import { PostHeader } from "~/app/posts/_components/post-header";
-import {Suspense} from "react";
+import { Suspense } from "react";
 
 export default async function Post(props: Params) {
   const params = await props.params;
