@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getAllPosts, getPostBySlug } from "~/lib/api";
-import markdownToHtml from "~/lib/markdownToHtml";
+import mdxToHtml from "~/lib/mdxToHtml";
 import { PostBody } from "~/app/posts/_components/post-body";
 import { PostHeader } from "~/app/posts/_components/post-header";
 import { Suspense } from "react";
@@ -14,7 +14,7 @@ export default async function Post(props: Params) {
     return notFound();
   }
 
-  const content = await markdownToHtml(post.content || "");
+  const content = await mdxToHtml(post.content || "");
 
   return (
     <main className="max-w-2xl">
