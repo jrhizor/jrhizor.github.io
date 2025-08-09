@@ -59,5 +59,13 @@
   "ct3aMetadata": {
     "initVersion": "7.38.1"
   },
-  "packageManager": "pnpm@10.4.0"
+  "packageManager": "pnpm@10.4.0",
+  "pnpm": {
+    "ignoredBuiltDependencies": [
+      "sharp"
+    ],
+    "onlyBuiltDependencies": [
+      "sharp"
+    ]
+  }
 }
