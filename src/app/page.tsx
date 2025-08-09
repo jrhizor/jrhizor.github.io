@@ -22,18 +22,7 @@ export default function HomePage() {
         className="mb-4 size-48 md:size-64"
       />
       <div className="main grid max-w-[900px] grid-cols-1 gap-8 text-balance py-4 text-3xl font-light leading-tight md:text-4xl">
-        <p>Hello, I&apos;m Jared Rhizor.</p>
-
-        <p>
-          I help VCs find early stage founders with{" "}
-          <Link
-            href="https://www.poach.vc/"
-            className="font-normal decoration-neutral-400 hover:underline hover:underline-offset-2"
-          >
-            Poach
-          </Link>
-          .
-        </p>
+        <p>I&apos;m Jared Rhizor, a bootstrapped founder.</p>
 
         <p>
           Previously, I was a tech lead at{" "}
