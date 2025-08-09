@@ -31,7 +31,7 @@ export default function ProjectsPage() {
         <h3>
           <a href="https://www.elmohq.com/">Elmo</a>
         </h3>
-        <p>Master your brand's reputation with LLM optimization.</p>
+        <p>Master your brand&apos;s reputation with LLM optimization.</p>
 
         <h2>Sold</h2>
         
