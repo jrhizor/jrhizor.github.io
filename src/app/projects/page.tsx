@@ -16,12 +16,22 @@ export default function ProjectsPage() {
       <h1 className="text-4xl font-light leading-tight">Projects</h1>
 
       <div className="prose -mt-4 max-w-2xl prose-h2:mt-8 prose-h2:text-sm prose-h2:font-bold prose-h2:uppercase prose-h2:tracking-wider prose-h2:text-neutral-400 prose-h3:mb-0 prose-p:mb-4 prose-p:text-[clamp(1.8rem,_2.0vw,_1.9rem)] prose-p:text-lg prose-p:leading-normal prose-p:text-black prose-p:antialiased prose-a:no-underline hover:prose-a:underline hover:prose-a:decoration-neutral-400 hover:prose-a:underline-offset-1">
-        <h2>Current Focus</h2>
+        <h2>Active</h2>
 
         <h3>
-          <a href="https://poach.vc/">Poach</a>
+          <a href="https://data.poach.vc/">Poach</a>
         </h3>
         <p>Find early stage founders by tracking the best VCs.</p>
+
+        <h3>
+          <a href="https://www.amor.dev/">Amor</a>
+        </h3>
+        <p>Find cracked engineers with green GitHubs.</p>
+
+        <h3>
+          <a href="https://www.elmohq.com/">Elmo</a>
+        </h3>
+        <p>Master your brand's reputation with LLM optimization.</p>
 
         <h2>Sold</h2>
         
@@ -52,19 +62,19 @@ export default function ProjectsPage() {
           <a href="https://www.favicon.to/">Favicon Generator</a>
         </h3>
         <p>Generate a simple favicon from 10,000+ React Icons.</p>
+        <h3>
+          <a href="https://fauna.so/">Fauna</a>
+        </h3>
+        <p>
+          A store featuring products with AI art. Used
+          for testing ads.
+        </p>
 
         <h2>Paused</h2>
         <h3>
           <a href="https://keywordgems.com/">KeywordGems</a>
         </h3>
         <p>Automatic, comprehensive keyword research for SEO.</p>
-
-        <h3>
-          <a href="https://www.elmohq.com/">Elmo</a>
-        </h3>
-        <p>
-          AI SEO tool to track how LLMs perceive your product.
-        </p>
 
         <h2>Graveyard</h2>
         <h3>
@@ -136,13 +146,6 @@ export default function ProjectsPage() {
           for working with multiple LLM providers and tracing, but Vercel&apos;s{" "}
           <a href="https://sdk.vercel.ai/">AI SDK</a> and others are much better
           now and should be used instead.
-        </p>
-        <h3>
-          <a href="https://fauna.so/">Fauna</a>
-        </h3>
-        <p>
-          A simple store featuring products with AI-generated art. It was used
-          for experimenting with Facebook ads.
         </p>
       </div>
     </main>
