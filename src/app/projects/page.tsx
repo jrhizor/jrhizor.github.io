@@ -19,7 +19,7 @@ export default function ProjectsPage() {
         <h2>Active</h2>
 
         <h3>
-          <a href="https://data.poach.vc/">Poach</a>
+          <a href="https://www.poach.vc/">Poach</a>
         </h3>
         <p>Find early stage founders by tracking the best VCs.</p>
 
