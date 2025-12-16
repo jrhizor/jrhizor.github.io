@@ -19,6 +19,11 @@ export default function ProjectsPage() {
         <h2>Active</h2>
 
         <h3>
+          <a href="https://www.elmohq.com/">Elmo</a>
+        </h3>
+        <p>Master your brand&apos;s reputation with LLM optimization.</p>
+
+        <h3>
           <a href="https://www.poach.vc/">Poach</a>
         </h3>
         <p>Find early stage founders by tracking the best VCs.</p>
@@ -29,9 +34,9 @@ export default function ProjectsPage() {
         <p>Find cracked engineers with green GitHubs.</p>
 
         <h3>
-          <a href="https://www.elmohq.com/">Elmo</a>
+          <a href="https://www.koala.fyi/">Koala</a>
         </h3>
-        <p>Master your brand&apos;s reputation with LLM optimization.</p>
+        <p>Track your domain authority and backlinks across all your sites.</p>
 
         <h2>Sold</h2>
 
