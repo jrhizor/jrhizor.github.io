@@ -111,6 +111,12 @@ const ChartTooltipContent = React.forwardRef<
       indicator?: "line" | "dot" | "dashed"
       nameKey?: string
       labelKey?: string
+      // These props are injected by recharts via context and omitted from
+      // TooltipProps, so we re-declare them for the content renderer.
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      payload?: Array<any>
+      active?: boolean
+      label?: string | number
     }
 >(
   (
@@ -260,11 +266,19 @@ const ChartLegend = RechartsPrimitive.Legend
 
 const ChartLegendContent = React.forwardRef<
   HTMLDivElement,
-  React.ComponentProps<"div"> &
-    Pick<RechartsPrimitive.LegendProps, "payload" | "verticalAlign"> & {
-      hideIcon?: boolean
-      nameKey?: string
-    }
+  React.ComponentProps<"div"> & {
+    // payload is omitted from LegendProps in recharts v3, re-declare for
+    // the content renderer which receives it via context.
+    payload?: Array<{
+      value?: string
+      color?: string
+      dataKey?: string | number
+      [key: string]: unknown
+    }>
+    verticalAlign?: "top" | "bottom" | "middle"
+    hideIcon?: boolean
+    nameKey?: string
+  }
 >(
   (
     { className, hideIcon = false, payload, verticalAlign = "bottom", nameKey },
