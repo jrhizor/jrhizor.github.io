@@ -22,7 +22,7 @@ export default function HomePage() {
         className="mb-4 size-48 md:size-64"
       />
       <div className="main grid max-w-[900px] grid-cols-1 gap-8 text-balance py-4 text-3xl font-light leading-tight md:text-4xl">
-        <p>I&apos;m Jared Rhizor, a bootstrapped founder.</p>
+        <p>I&apos;m Jared Rhizor, a bootstrapped founder building <Link href="https://www.elmohq.com/" className="font-normal decoration-neutral-400 hover:underline hover:underline-offset-2">open source AI search optimization</Link>.</p>
 
         <p>
           Previously, I was a tech lead at{" "}
