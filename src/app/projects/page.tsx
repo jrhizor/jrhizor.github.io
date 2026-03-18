@@ -21,22 +21,12 @@ export default function ProjectsPage() {
         <h3>
           <a href="https://www.elmohq.com/">Elmo</a>
         </h3>
-        <p>Master your brand&apos;s reputation with LLM optimization.</p>
+        <p>Open source AI search optimization.</p>
 
         <h3>
           <a href="https://www.poach.vc/">Poach</a>
         </h3>
         <p>Find early stage founders by tracking the best VCs.</p>
-
-        <h3>
-          <a href="https://www.amor.dev/">Amor</a>
-        </h3>
-        <p>Find cracked engineers with green GitHubs.</p>
-
-        <h3>
-          <a href="https://www.koala.fyi/">Koala</a>
-        </h3>
-        <p>Track your domain authority and backlinks across all your sites.</p>
 
         <h2>Sold</h2>
 
@@ -75,13 +65,19 @@ export default function ProjectsPage() {
         </h3>
         <p>A store featuring products with AI art. Used for testing ads.</p>
 
-        <h2>Paused</h2>
+        <h2>Graveyard</h2>
+        <h3>
+          <a href="https://www.amor.dev/">Amor</a>
+        </h3>
+        <p>Find cracked engineers with green GitHubs.</p>
+        <h3>
+          <a href="https://www.koala.fyi/">Koala</a>
+        </h3>
+        <p>Track your domain authority and backlinks across all your sites.</p>
         <h3>
           <a href="https://keywordgems.com/">KeywordGems</a>
         </h3>
         <p>Automatic, comprehensive keyword research for SEO.</p>
-
-        <h2>Graveyard</h2>
         <h3>
           <a href="https://www.altnado.com/">Altnado</a>
         </h3>
