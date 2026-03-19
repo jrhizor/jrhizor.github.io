@@ -1,0 +1,61 @@
+---
+title: "Finding the Closest Tailwind Color"
+description: "A tool to find the nearest Tailwind CSS color class to any hex, RGB, or HSL color — using OKLAB for perceptually accurate matching instead of naive RGB distance."
+date: "2026-03-18T12:00:00+00:00"
+name: "Jared Rhizor"
+---
+
+<ClosestTailwindColor />
+
+### What is the best method for finding the closest color?
+
+If you search for "closest tailwind color" on Google, the first [two](https://find-nearest-tailwind-colour.netlify.app/) [results](https://tailcolors.com/tools/closest-tailwind-color/) handle the problem rather differently.
+The first uses Euclidean distance in the [OKLAB space](https://bottosson.github.io/posts/oklab/), while the second uses Euclidean distance in [RGB space](https://en.wikipedia.org/wiki/RGB_color_spaces). 
+
+Why does this matter? OKLAB is designed for _perceptual_ uniformity, while RGB is not. So if a color is closer to another color in OKLAB, it usually should be closer to the human eye.
+
+### Does this matter for Tailwind?
+
+When finding the closest Tailwind color for an arbitrary color, it turns out that out of all 16,777,216 RGB colors, 59% of colors have the same closest Tailwind color in both OKLAB and RGB, while 41% have different closest colors.
+Here's what it actually looks like across the color spectrum:
+<ColorSpaceComparison />
+
+### How bad can RGB matching get?
+
+It turns out that many of the matches from arbitrary colors to the nearest Tailwind color in the RGB space look very incorrect. Here's a small sample:
+
+<WorstOffendersTable />
+
+However, while many OKLAB-based matches look great, it is possible to find examples where RGB-space matching looks better to me than OKLAB-space matching:
+
+<RgbWinsTable /> 
+
+### What if we just ask an LLM?
+
+Can LLMs do better than RGB or OKLAB-based matching? I asked Sonnet and Opus to find the closest Tailwind color for all of the difficult matching cases above. 
+
+<LlmComparisonTable />
+
+They did a great job to my eye! 
+Opus picked a slightly better shade of purple for one of the colors, but all other choices were the same as Sonnet. 
+And both models addressed the main problems of both the RGB and OKLAB-based matching.
+
+### Can we do better?
+
+Since LLMs seemed to do better, I set an LLM to develop a heuristic algorithm by:
+
+1. Get a random sample of colors where RGB/OKLAB do not agree.
+2. Determine the "best" Tailwind color (according to the LLM).
+3. Adjust the heuristic."
+4. Repeat until the vast majority of colors evaluate to what the LLM considers "best".
+
+Here's how the new method compares to RGB and OKLAB matching on both the cases above and a random sample of other colors where the methods disagree:
+
+<ThreeWayComparisonTable />
+
+### Conclusion
+
+This is a pretty simple example of using LLMs to cheaply evaluate sampled data in order to produce a working heuristic.
+The new heuristics perform pretty well, you can try it out with the tool at the top of the page!
+It's also available on GitHub.
+To my eye, in most cases it performs better than the RGB and OKLAB methods and slightly worse than asking an LLM directly.
