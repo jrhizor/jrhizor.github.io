@@ -23,12 +23,14 @@ export default function ProjectsPage() {
         </h3>
         <p>Open source AI search optimization.</p>
 
+        <h2>Sold</h2>
+
         <h3>
           <a href="https://www.poach.vc/">Poach</a>
         </h3>
-        <p>Find early stage founders by tracking the best VCs.</p>
-
-        <h2>Sold</h2>
+        <p>
+          Find early stage founders by tracking the best VCs. Sold in 2026.
+        </p>
 
         <h3>
           <a href="https://mealbymeal.com/">MealByMeal</a>
