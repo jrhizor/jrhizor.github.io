@@ -45,7 +45,7 @@ const changelog = [
   },
   {
     title: "Poach Launch",
-    description: <>I get my first revenue for one of several other projects I'm experimenting with (<a href="https://www.poach.vc" target="_blank">Poach</a>). This starts to grow much more rapidly and serves a wake-up call that I should not be spending as much time on MealByMeal.</>,
+    description: <>I get my first revenue for one of several other projects I'm experimenting with (<a href="https://www.poach.vc" target="_blank" rel="nofollow">Poach</a>). This starts to grow much more rapidly and serves a wake-up call that I should not be spending as much time on MealByMeal.</>,
     date: "Dec 9, 2024",
   },
   {

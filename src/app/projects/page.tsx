@@ -19,21 +19,21 @@ export default function ProjectsPage() {
         <h2>Active</h2>
 
         <h3>
-          <a href="https://www.elmohq.com/">Elmo</a>
+          <a href="https://www.elmohq.com/?ref=jrhizor">Elmo</a>
         </h3>
         <p>Open source AI search optimization.</p>
 
         <h2>Sold</h2>
 
         <h3>
-          <a href="https://www.poach.vc/">Poach</a>
+          <a href="https://www.poach.vc/" rel="nofollow">Poach</a>
         </h3>
         <p>
           Find early stage founders by tracking the best VCs. Sold in 2026.
         </p>
 
         <h3>
-          <a href="https://mealbymeal.com/">MealByMeal</a>
+          <a href="https://mealbymeal.com/" rel="nofollow">MealByMeal</a>
         </h3>
         <p>
           Track calories and macros over text message. Sold in 2025 for a small
@@ -43,45 +43,45 @@ export default function ProjectsPage() {
         <h2>Maintenance Mode</h2>
 
         <h3>
-          <a href="https://www.shelved.domains/">Shelved.Domains</a>
+          <a href="https://www.shelved.domains/?ref=jrhizor">Shelved.Domains</a>
         </h3>
         <p>Helping founders buy and sell their unused domain names.</p>
         <h3>
-          <a href="https://otamatunes.com/">Otamatunes</a>
+          <a href="https://otamatunes.com/?ref=jrhizor">Otamatunes</a>
         </h3>
         <p>Sheet music for the Otamatone.</p>
         <h3>
-          <a href="https://invite.sh/">Invite</a>
+          <a href="https://invite.sh/?ref=jrhizor">Invite</a>
         </h3>
         <p>Easily create calendar events in any timezone.</p>
         <h3>
-          <a href="https://robinwords.com/">RobinWords</a>
+          <a href="https://robinwords.com/?ref=jrhizor">RobinWords</a>
         </h3>
         <p>Fun word game with a daily challenge.</p>
         <h3>
-          <a href="https://www.favicon.to/">Favicon Generator</a>
+          <a href="https://www.favicon.to/?ref=jrhizor">Favicon Generator</a>
         </h3>
         <p>Generate a simple favicon from 10,000+ React Icons.</p>
         <h3>
-          <a href="https://fauna.so/">Fauna</a>
+          <a href="https://fauna.so/?ref=jrhizor">Fauna</a>
         </h3>
         <p>A store featuring products with AI art. Used for testing ads.</p>
 
         <h2>Graveyard</h2>
         <h3>
-          <a href="https://www.amor.dev/">Amor</a>
+          <a href="https://www.amor.dev/?ref=jrhizor" rel="nofollow">Amor</a>
         </h3>
         <p>Find cracked engineers with green GitHubs.</p>
         <h3>
-          <a href="https://www.koala.fyi/">Koala</a>
+          <a href="https://www.koala.fyi/?ref=jrhizor" rel="nofollow">Koala</a>
         </h3>
         <p>Track your domain authority and backlinks across all your sites.</p>
         <h3>
-          <a href="https://keywordgems.com/">KeywordGems</a>
+          <a href="https://keywordgems.com/?ref=jrhizor" rel="nofollow">KeywordGems</a>
         </h3>
         <p>Automatic, comprehensive keyword research for SEO.</p>
         <h3>
-          <a href="https://www.altnado.com/">Altnado</a>
+          <a href="https://www.altnado.com/?ref=jrhizor" rel="nofollow">Altnado</a>
         </h3>
         <p>
           Generate alt text for images directly in your CMS. The non-plugin
@@ -91,7 +91,7 @@ export default function ProjectsPage() {
           of SKUs.
         </p>
         <h3>
-          <a href="https://stoat.dev/">Stoat</a>
+          <a href="https://stoat.dev/?ref=jrhizor" rel="nofollow">Stoat</a>
         </h3>
         <p>
           Helped developers understand their build artifacts and build metrics.
@@ -99,7 +99,7 @@ export default function ProjectsPage() {
           a separate product proved to be a challenge.
         </p>
         <h3>
-          <a href="https://www.presetbot.com/">PresetBot</a>
+          <a href="https://www.presetbot.com/?ref=jrhizor" rel="nofollow">PresetBot</a>
         </h3>
         <p>
           Applied Lightroom presets with an API. You can read about why
@@ -110,7 +110,7 @@ export default function ProjectsPage() {
           .
         </p>
         <h3>
-          <a href="https://www.audiencegarden.com/">AudienceGarden</a>
+          <a href="https://www.audiencegarden.com/?ref=jrhizor" rel="nofollow">AudienceGarden</a>
         </h3>
         <p>
           Helped grow your following on Twitter via replies. Abandoned due to
@@ -118,7 +118,7 @@ export default function ProjectsPage() {
           platform risk.
         </p>
         <h3>
-          <a href="https://www.interlinked.fyi/">Interlinked</a>
+          <a href="https://www.interlinked.fyi/?ref=jrhizor" rel="nofollow">Interlinked</a>
         </h3>
         <p>
           Compared connector coverage across data integration platforms.
@@ -128,14 +128,14 @@ export default function ProjectsPage() {
           is even more difficult.
         </p>
         <h3>
-          <a href="https://withcalories.com/">WithCalories</a>
+          <a href="https://withcalories.com/?ref=jrhizor" rel="nofollow">WithCalories</a>
         </h3>
         <p>
           Directory of restaurants in San Francisco with calorie information on
           the menu. This drove a small amount of traffic to MealByMeal.
         </p>
         <h3>
-          <a href="https://www.vinylinspector.com/">Vinyl Inspector</a>
+          <a href="https://www.vinylinspector.com/?ref=jrhizor" rel="nofollow">Vinyl Inspector</a>
         </h3>
         <p>
           Chrome extension to better visually inspect photos of records on eBay
@@ -143,7 +143,7 @@ export default function ProjectsPage() {
           that ultimately hated it.
         </p>
         <h3>
-          <a href="https://github.com/jrhizor/elelem">Elelem</a>
+          <a href="https://github.com/jrhizor/elelem?ref=jrhizor" rel="nofollow">Elelem</a>
         </h3>
         <p>
           A simple LLM framework in TypeScript with OpenTelemetry baked in. This
