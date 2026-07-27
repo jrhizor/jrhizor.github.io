@@ -19,6 +19,8 @@ export default function HomePage() {
         alt="Jared Rhizor"
         width={256}
         height={256}
+        loading="eager"
+        fetchPriority="high"
         className="mb-4 size-48 md:size-64"
       />
       <div className="main grid max-w-[900px] grid-cols-1 gap-8 text-balance py-4 text-3xl font-light leading-tight md:text-4xl">
